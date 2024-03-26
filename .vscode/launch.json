@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/workspace-pessoal/prog-concorrente/lab-01",
-      "program": "c:/workspace-pessoal/prog-concorrente/lab-01/build/Debug/outDebug",
+      "cwd": "c:/workspace-pessoal/prog-concorrente/lab-03",
+      "program": "c:/workspace-pessoal/prog-concorrente/lab-03/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

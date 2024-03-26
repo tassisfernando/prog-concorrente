@@ -30,7 +30,9 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "-lpthread",
+        "-lgdi32"
       ],
       "options": {
         "cwd": "${fileDirname}"
