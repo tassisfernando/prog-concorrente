@@ -1,0 +1,27 @@
+//Para criar a struct
+typedef struct {
+	int idThread;
+	int *vet;
+} tv_Args;
+
+
+//Para criar e dar valor ao vetor na main
+int vet[SIZE];
+for (int i = 0; i < SIZE; vet[i++]=i);
+
+
+//Para copiar o endereco do vetor na struct antes de chamar a thread
+arg->vet = &vet[0];
+
+
+//Para acessar uma posicao do vetor de dentro da thread
+//Obs: i é a posição do vetor que estou incrementando.
+*(args->vet + i) += 1;
+
+//funcao para imprimir um vetor de inteiros
+void imprimeVetor (int *vetor, int tamanho) {
+	for (int i = 0; i < tamanho; i++){
+		printf("%d\n", vetor[i] );
+	}
+	printf("\n\n");
+}
